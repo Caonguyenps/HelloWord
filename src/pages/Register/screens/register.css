@@ -1,0 +1,40 @@
+.wrap-register {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/968/002/large_2x/cute-abstract-modern-background-free-vector.jpg");
+}
+.account-form {
+  padding-top: 32px;
+}
+
+.account-form .title-account {
+  width: 100%;
+  text-align: center;
+}
+.account-form .title-account span {
+  font-size: 36px;
+  font-weight: 700;
+}
+.wrap-icon-account {
+  width: 100%;
+}
+
+.account-form .icon-account {
+  width: 143px;
+  height: 143px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 32px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  padding: 20px 20px 20px 20px;
+  box-shadow: 2px 1px 2px rgba(195, 38, 38, 0.25);
+}
+
+.icon-account .icon {
+  font-size: 90px;
+}
+
+.account-form .msg-error {
+  color: red;
+}

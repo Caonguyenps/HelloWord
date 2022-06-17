@@ -1,4 +1,4 @@
 module.exports = {
   HOME: "/",
-  PRODUCT: "/product",
+  REGISTER: "/register",
 };

@@ -5,11 +5,11 @@ import ClientRoutes from "../routes/ClientRoutes";
 export default function MainLayout() {
   return (
     <>
-      <HeaderComponent />
+      {/* <HeaderComponent /> */}
       <div className="body-content">
         <ClientRoutes />
       </div>
-      <FooterComponent />
+      {/* <FooterComponent /> */}
     </>
   );
 }
