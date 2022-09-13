@@ -1,15 +1,16 @@
-import FooterComponent from "../components/Footer/Footer.component";
-import HeaderComponent from "../components/Header/Header.component";
+import { BrowserRouter } from "react-router-dom";
+import AccountRoutes from "../routes/AccountRoutes";
 import ClientRoutes from "../routes/ClientRoutes";
 
 export default function MainLayout() {
   return (
     <>
-      {/* <HeaderComponent /> */}
       <div className="body-content">
-        <ClientRoutes />
+        <BrowserRouter>
+          <ClientRoutes />
+          <AccountRoutes />
+        </BrowserRouter>
       </div>
-      {/* <FooterComponent /> */}
     </>
   );
 }

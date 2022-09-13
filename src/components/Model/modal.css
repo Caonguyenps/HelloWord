@@ -1,0 +1,12 @@
+.error-title-icon {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.error-title-content {
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  width: 100%;
+  margin-top: 10px;
+}

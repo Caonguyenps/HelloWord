@@ -31,7 +31,9 @@ export default function InputComponent(props) {
         <FilledInput
           id="filled-adornment-amount"
           startAdornment={
-            <InputAdornment position="start">{props.data.title}</InputAdornment>
+            <InputAdornment position="start" className="title-name">
+              {props.data.title}
+            </InputAdornment>
           }
           variant="outlined"
           type={props.data.type}

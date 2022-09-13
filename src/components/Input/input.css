@@ -2,14 +2,14 @@
   width: 718px;
   margin: 0 auto;
   margin-top: 30px;
-  border: 1px solid #d1d1d1;
+  border: 1px solid #1a1919;
   border-bottom: 0px;
   border-radius: 12px;
 }
 
 .input .MuiFilledInput-underline:before {
   border-radius: 12px;
-  border-bottom: 1px solid #d1d1d1;
+  border-bottom: 1px solid #1a1919;
 }
 .input .MuiFilledInput-underline:after {
   display: none;
@@ -26,5 +26,10 @@
   width: 190px;
   height: 24px !important;
   text-align: center;
-  border-right: 1px solid #b8b7b7;
+  border-right: 1px solid #1a1919;
+}
+
+.title-name p {
+  color: #1a1919 !important;
+  font-weight: 600;
 }
