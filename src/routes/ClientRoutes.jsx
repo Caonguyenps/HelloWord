@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import HomeScreens from "../pages/Home/screens/HomeScreens";
 import path from "../resources/path";
-import LoadingComponent from "../components/Loading/Loading.component";
-import FooterComponent from "../components/Footer/Footer.component";
-import HeaderComponent from "../components/Header/Header.component";
+import NextScreens from "../pages/Home/screens/NextScreens";
 
 const ClientRoutes = () => {
   const [loading, setLoading] = useState(false);
@@ -13,16 +11,22 @@ const ClientRoutes = () => {
   };
   return (
     <>
-      {loading ? <LoadingComponent /> : ""}
       <Switch>
         <Route
           exact
           path={path.HOME}
           render={() => (
             <>
-              <HeaderComponent />
               <HomeScreens />
-              {/* <FooterComponent /> */}
+            </>
+          )}
+        />
+        <Route
+          exact
+          path={path.NEXT}
+          render={() => (
+            <>
+              <NextScreens />
             </>
           )}
         />

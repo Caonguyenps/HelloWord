@@ -1,5 +1,4 @@
 import { BrowserRouter } from "react-router-dom";
-import AccountRoutes from "../routes/AccountRoutes";
 import ClientRoutes from "../routes/ClientRoutes";
 
 export default function MainLayout() {
@@ -8,7 +7,6 @@ export default function MainLayout() {
       <div className="body-content">
         <BrowserRouter>
           <ClientRoutes />
-          <AccountRoutes />
         </BrowserRouter>
       </div>
     </>
