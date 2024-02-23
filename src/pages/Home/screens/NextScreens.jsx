@@ -11,7 +11,7 @@ export default function NextScreens() {
   return (
     <div>
       <div>
-        <span>Next Page</span>
+        <span>Next Pages</span>
       </div>
       <div>
         <span onClick={() => handleClickBack(path.HOME)}>Back</span>
